@@ -36,6 +36,5 @@ The objective was to demonstrate:
 
 Each scenario contains:
 
-- `commands.md` → commands executed
-- `explanation.md` → observations and breakdown
-- `screenshots/` → terminal screenshots showing proof
+- `commands explanation and screenshots.md` → showing commands executed observations and breakdown
+ terminal screenshots showing proof
