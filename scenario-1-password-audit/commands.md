@@ -15,6 +15,7 @@ sudo cat /etc/shadow
 # Output: audit_test:!:18295:0:99999:7:::
 # Explanation: "!" indicates no active password set.The syntax for this diplay is username:password:lastchange:min:max:warn:inactive:expire.Hence in the case of the audit_test user the password section has no informtion aport from an exclamation mark which indicates no password.
 
+
 # Screenshot showing user login information
 <img width="1106" height="84" alt="password defined for audiotest" src="https://github.com/user-attachments/assets/f050ae0b-394e-4282-aa32-d1c83e626f6f" />
 <img width="1103" height="537" alt="content of etcshadow" src="https://github.com/user-attachments/assets/f4282c48-201b-45d0-b3dc-5b7665538e12" />
