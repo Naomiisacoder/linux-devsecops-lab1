@@ -15,7 +15,7 @@ The objective was to demonstrate:
 - Privilege escalation control
 - Audit-aware user lifecycle management
 
-  #Skills Demonstrated
+  ## Skills Demonstrated
 - Linux user management
 - /etc/shadow password inspection
 - Group management and access control
@@ -24,10 +24,18 @@ The objective was to demonstrate:
 - Audit-conscious user deletion
 - Terminal-based documentation
 
-  #Evidence Structure
+  ## Evidence Structure
   Each scenario contains:
 - Commands executed
 - Terminal output
 - Screenshots
 - Security observations
 - System implications
+  
+  ## Repository Structure
+
+Each scenario contains:
+
+- `commands.md` → commands executed
+- `explanation.md` → observations and breakdown
+- `screenshots/` → terminal screenshots showing proof
