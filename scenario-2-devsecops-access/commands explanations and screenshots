@@ -15,11 +15,6 @@ sudo groupadd qa_team
 # Screenshot
 
 
-
-
-
-
-
 # Create users (without password for one)
 sudo useradd lateef
 sudo useradd arthur
