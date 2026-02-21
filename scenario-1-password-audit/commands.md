@@ -8,7 +8,11 @@
 #Screenshot showing the creation of audio-tester user
 <img width="706" height="185" alt="created audio_test user" src="https://github.com/user-attachments/assets/6178e319-fa9b-4c80-906f-50e6e98dfefd" />
 
-
+##part B:Identifiy Users Without passwords(Discovery required)
+Inspect password file
+Sudo cat  /etc/shadow
+#Output: audit_test:!:18295:0:99999:7::
+#Explanation:indicates no active password set .The syntax for this display is username:password:lastchange:min:max:inactive:expire. Hence in the case of the audit_test user the password section has no information apart from the exclamation mark which indicates no password.
 
 # Screenshot showing user login information
 <img width="1106" height="84" alt="password defined for audiotest" src="https://github.com/user-attachments/assets/f050ae0b-394e-4282-aa32-d1c83e626f6f" />
