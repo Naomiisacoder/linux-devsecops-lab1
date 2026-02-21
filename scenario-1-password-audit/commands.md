@@ -1,9 +1,4 @@
-## Part A: Create audit_test User Without Password
-1-  # Create user without password
-     sudo useradd audit_test
-2- # Verify user exists
-    cat /etc/passwd 
-3- # Output:audio_test:x:1001:1001::/home/audio_test:/bin/sh
+
 
 #Screenshot showing the creation of audio-tester user
 <img width="706" height="185" alt="created audio_test user" src="https://github.com/user-attachments/assets/6178e319-fa9b-4c80-906f-50e6e98dfefd" />
