@@ -1,1 +1,55 @@
+# Scenario 2: DevSecOps User & Department Access Configuration
 
+**Author:** Naomi Onwuka  
+**Date:** 21/02/2026  
+**Purpose:** Demonstrate Linux user creation, department-based grouping, privilege management, 
+CI/CD service account setup, and user removal with home directory preservation.
+
+Part A: Create Department Groups
+## Step 1: Create Groups
+
+sudo groupadd dev_team
+sudo groupadd sec_team
+sudo groupadd qa_team
+
+# Screenshot
+
+
+# Create users (without password for one)
+sudo useradd lateef
+sudo useradd arthur
+sudo useradd purity
+sudo useradd habiba
+sudo useradd paula
+sudo useradd yaa
+sudo useradd alex
+sudo useradd aminat
+sudo useradd ci_runner -s /usr/sbin/nologin  # service account
+
+
+# Assign users to groups
+sudo usermod -aG dev_team lateef
+sudo usermod -aG dev_team arthur
+sudo usermod -aG sec_team purity
+sudo usermod -aG sec_team habiba
+sudo usermod -aG qa_team paula
+sudo usermod -aG qa_team yaa
+sudo usermod -aG ops_team alex
+sudo usermod -aG ops_team aminat
+
+# Screenshot
+
+## Step 3: Set Password for One User
+
+# Timestamp
+date
+# Example output: Wed Feb 21 10:10:30 UTC 2026
+
+# Set password for lateef (created without password)
+sudo passwd lateef
+
+# Confirm password updated
+sudo grep lateef /etc/shadow
+# Output example: lateef:$6$abcd1234...:18295:0:99999:7:::
+
+# Screenshot
